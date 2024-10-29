@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'SoDo Sans SemiBold';
+    src: url('https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold') format('truetype');
+}
+
+.body {
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold", sans-serif;
+    display: flex;
+}
+
+.navbar-blok {
+
+    position: fixed;
+    z-index: 2;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    border-bottom: #6c6c6c; 
+    background-color: white;
+}
+
+.navbar {
+    font-size: 16px;
+    font-weight: 800;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+
+.navbar-sol svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navbar-sol div {
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.navbar-sol,
+.navbar-sag {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-sol>* {
+    margin: 10px;
+}
+
+.navbar-sag>* {
+    margin: 10px;
+}
+
+
+.magazalarimiz {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.giris {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+
+.hemen-katil {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+    background-color: black;
+    color: white;
+}
+
+.hemen-katil:hover {
+    background-color: rgb(71, 69, 69);
+}
+
+.giris:hover {
+    background-color: rgb(217, 217, 217);
+}
+
+.alisveris,
+.getir,
+.bilgi {
+    background-color: #008248;
+    color: white;
+    font-weight: 500;
+    border: 1px #008248;
+    border-radius: 50px;
+    padding: 7px 16px 7px 16px;
+    align-items: center;
+    font-size: 1rem;
+    display: inline-block;
+    border-style: solid;
+    line-height: 1.2;
+}
+
+.alisveris:hover {
+    background-color: rgb(0, 156, 0);
+}
+
+
+.yemeksepeti {
+    background-color: white;
+    color: green;
+    font-weight: 500;
+    border: 1px solid green;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+    align-items: center;
+}
+
+.bloklar {
+    display: flex;
+    margin-top: 70px;
+    position: sticky;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 1000%;
+}
+
+.qwez {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 500px;
+    height: 100vh;
+    padding: 1%;
+    z-index: 1;
+}
+
+.banner {
+    position: relative;
+    margin-left: 320px;
+    padding: 20px;
+    width: calc(100% - 620px);
+    align-items: flex-start;
+}
+
+.banner-foto img {
+    width: 100%;
+}
+
+.banner-detay .title {
+    font-size: 30px;
+}
+
+.banner-detay .text {
+    font-size: 20px;
+    color: #6c6c6c;
+}
+
+.banner-action,
+.getir,
+.yemeksepeti {
+    font-size: 20px;
+
+}
+
+.kalp,
+.aciklamalar {
+    margin-left: 450px;
+    width: calc(100% - 620px);
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+
+}
+
+.kalp-foto img {
+    width: 396px;
+
+}
+
+.aciklamalar-foto img {
+    width: 396px;
+}
+
+.kalp-baslik,
+.aciklamalar-baslik {
+    margin-left: 60px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.kalp-yazi,
+.aciklamalar-yazi {
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: #6c6c6c;
+}
